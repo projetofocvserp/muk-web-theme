@@ -33,7 +33,7 @@ class ResUsers(models.Model):
     
     @api.model
     def _default_sidebar_type(self):
-        return self.env.user.company_id.default_sidebar_preference or 'small'
+        return self.env.user.company_id.default_sidebar_preference or 'large'
     
     @api.model
     def _default_chatter_position(self):

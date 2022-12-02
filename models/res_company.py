@@ -66,7 +66,7 @@ class ResCompany(models.Model):
             ('large', 'Large')
         ], 
         string="Sidebar Type",
-        default='small'
+        default='large'
     )
     
     default_chatter_preference = fields.Selection(
