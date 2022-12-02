@@ -43,7 +43,7 @@
         "template/assets.xml",
         "template/web.xml",
         "views/res_users.xml",
-        "views/res_config_settings_view.xml",
+        # "views/res_config_settings_view.xml",
         "data/res_company.xml",
     ],
     "qweb": [
