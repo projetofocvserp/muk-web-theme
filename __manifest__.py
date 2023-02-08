@@ -43,8 +43,7 @@
         "template/assets.xml",
         "template/web.xml",
         "views/res_users.xml",
-        # "views/res_config_settings_view.xml",
-        "data/res_company.xml",
+        #"views/res_config_settings_view.xml",
     ],
     "qweb": [
         "static/src/components/control_panel.xml",
@@ -61,5 +60,6 @@
     "application": False,
     "installable": True,
     "auto_install": False,
+    "post_init_hook": "set_background_image",
     "uninstall_hook": "_uninstall_reset_changes",
 }

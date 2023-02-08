@@ -23,6 +23,7 @@
 from odoo import api, SUPERUSER_ID
 
 from . import models
+from .post_install import set_background_image
 
 XML_ID = "muk_web_theme._assets_primary_variables"
 SCSS_URL = "/muk_web_theme/static/src/scss/colors.scss"
